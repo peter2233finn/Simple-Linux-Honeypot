@@ -2,10 +2,10 @@
 
 This will open ports 8000 to 25000. It assumed that this device is behind a NAT, rather than a PAT configuration. This should be configured by forwarding remote ports: 8000-9024 to the local ports: 16000-10048. The reasons for this are:
 <br>
-1. 1-1024 are root controlled ports and may already have services running on them
-2. <br>If the device does not have root access, it may be difficult to use these ports
-3. <br>root access should be avoided for security.
-
+1. 1-1024 are root controlled ports and may already have services running on them<br>
+2. If the device does not have root access, it may be difficult to use these ports<br>
+3. root access should be avoided for security.
+<br>
 The file listenerHoneypot.conf is used to configure the honeypot.
 
 <br><br>
