@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: Apache/2.1.19 (Ubuntu)
+Set-Cookie: MoodleSession=62rswqiOIiuoujhj0d; path=/
+Expires: Mon, 20 Aug 1979 09:23:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Language: en-us
+Content-Script-Type: text/javascript
+Content-Style-Type: text/css
+X-UA-Compatible: IE=edge
+Cache-Control: post-check=0, pre-check=0, no-transform
+Last-Modified: Tue, 02 Feb 2021 12:26:38 GMT
+Accept-Ranges: none
+X-Frame-Options: sameorigin
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8

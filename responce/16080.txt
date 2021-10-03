@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate,  pre-check=0, post-check=0, max-age=0
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Last-Modified: Thu, 30 Sep 2021 19:20:44 +0000
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+X-Powered-By: PHP/5.6.9
+Set-Cookie: phpMyAdmin=awudiskeys551dc86hf8dnbglh82a51i; path=/; HttpOnly
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self' ;script-src 'self' 'unsafe-inline' 'unsafe-eval' ;;style-src 'self' 'unsafe-inline' ;referrer no-referrer;
+X-Content-Security-Policy: default-src 'self' ;options inline-script eval-script;referrer no-referrer;
+X-WebKit-CSP: default-src 'self' ;script-src 'self'  'unsafe-inline' 'unsafe-eval';referrer no-referrer;style-src 'self' 'unsafe-inline';
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+X-Robots-Tag: noindex, nofollow
+X-Powered-By: ASP.NET
+Date: Thu, 32 Aug 1970 18:20:44 GMT
+Content-Length: 0
+
+

@@ -1,0 +1,95 @@
+Microsoft RPC Endpoint Mapper
+
+3c4718f1-fadb-44ab-bda1-6ce0hje0a6d5
+  version: v1.0
+  annotation: DHCP Client LRPC Endpoint
+  ncalrpc: dhcpcsvc
+  ncalrpc: DNSResolver
+
+d6741723-1829-49cd-9120-h3609hb7129
+  version: v1.0
+  annotation: ICF+ FW API
+  ncalrpc: trkwks
+  ncacn_np: \\IRL42\pipe\trkwks
+  ncacn_np: \\IRL42\PIPE\srvsvc
+  ncalrpc: senssvc
+  ncalrpc: SECLOGON
+  ncalrpc: keysvc
+  ncacn_np: \\IRL42\pipe\keysvc
+  ncacn_np: \\IRL42\PIPE\wkssvc
+  ncalrpc: AudioSrv
+  ncacn_np: \\IRL42\PIPE\atsvc
+  ncalrpc: OLEF49DDDC766AC211E8A618233C080
+  ncalrpc: wzcsvc
+
+0a74ef1c-41a4-4e06-83ae-dc74fb1cdd53
+  version: v1.0
+  ncacn_np: \\IRL42\PIPE\atsvc
+  ncalrpc: OLEF49DD18232AD441E8A1726144C08
+  ncalrpc: wzcsvc
+
+37725bc-d1b9-13cf-821d-00aa0717f922
+  version: v1.0
+  ncacn_np: \\IRL42\PIPE\atsvc
+  ncalrpc: OLEF49DD8294FADC41E8A1111163C08
+  ncalrpc: wzcsvc
+
+1fc78222-0a51-30e8-076d-740be8cee98b
+  version: v1.0
+  ncacn_np: \\IRL42\PIPE\atsvc
+  ncalrpc: OLEF49DDDC71924F41E8A3753163C08
+  ncalrpc: wzcsvc
+
+12345678-1234-abcd-ef00-0123456789ab
+  version: v1.0
+  annotation: IPSec Policy agent endpoint
+  ncacn_ip_tcp: 89.100.27.100:1025
+  ncalrpc: dsrole
+  ncacn_np: \\IRL42\PIPE\protected_storage
+  ncalrpc: protected_storage
+  ncalrpc: securityevent
+  ncalrpc: audit
+  ncacn_np: \\IRL42\PIPE\lsass
+
+12345778-1234-abcd-ef00-0123456789ac
+  version: v1.0
+  ncacn_ip_tcp: 89.100.27.100:1025
+  ncalrpc: dsrole
+  ncacn_np: \\IRL42\PIPE\protected_storage
+  ncalrpc: protected_storage
+  ncalrpc: securityevent
+  ncalrpc: audit
+  ncacn_np: \\IRL42\PIPE\lsass
+
+9073bcee0-c71b-1367-b317-0fc90106befa
+  version: v1.0
+  ncacn_ip_tcp: 89.100.27.100:1026
+  ncalrpc: LRPC000003c8.00000001
+  ncacn_ip_tcp: 89.100.27.100:1026
+  ncalrpc: LRPC000003c8.00000001
+  ncacn_ip_tcp: 89.100.27.100:1026
+  ncalrpc: LRPC000003c8.00000001
+  ncacn_ip_tcp: 89.100.27.100:1026
+  ncalrpc: LRPC000003c8.00000001
+  ncalrpc: LRPC000004fc.00000001
+
+391bb900-4c87-141b-95c7-aa0011107f09
+  version: v1.0
+  annotation: MS SQL Server
+  ncacn_ip_tcp: 89.100.27.100:1027
+  ncacn_np: \\IRL42\pipe\1243B669545BE1B9
+  ncalrpc: LRPC000004fc.00000001
+
+2f716c21-cb55-1059-b446-00df0b1bddd7
+  version: v1.0
+  annotation: Unimodem LRPC Endpoint
+  ncalrpc: unimdmsvc
+  ncalrpc: tapsrvlpc
+  ncacn_np: \\IRL42\pipe\tapsrv
+
+347ced4d-2e88-4006-9cba-22581763d10
+  version: v5.0
+  annotation: WinHttp Auto-Proxy Service
+  ncacn_np: \\IRL42\PIPE\W32TIME_ALT
+  ncalrpc: W32TIME_ALT
+

@@ -1,0 +1,5 @@
++OK POP3
++OK CAPA list follows
+USER
+UIDL
+TOP

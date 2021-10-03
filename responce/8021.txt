@@ -1,0 +1,12 @@
+220 (vsFTPd 2.0.5)
+530 Login incorrect.
+530 Please login with USER and PASS.
+211-Features:
+ EPRT
+ EPSV
+ MDTM
+ PASV
+ REST STREAM
+ SIZE
+ TVFS
+211 End

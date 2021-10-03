@@ -1,0 +1,11 @@
+HTTP/1.1 204 No Content
+Server: ngnix
+Access-Control-Allow-Credentials: true
+Timing-Allow-Origin: *
+X-XSS-Protection: 0
+Content-Type: image/gif
+Expires: Wed, 03 Feb 2021 12:42:05 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 03 Feb 2021 12:42:05 GMT
+Connection: close

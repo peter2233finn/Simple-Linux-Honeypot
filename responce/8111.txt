@@ -1,0 +1,8 @@
+Portmap
+Program	Version	Protocol	Port
+portmapper	4	tcp	111
+portmapper	3	tcp	111
+portmapper	2	tcp	111
+portmapper	4	udp	111
+portmapper	3	udp	111
+portmapper	2	udp	111

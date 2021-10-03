@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Date: Wed, 03 Feb 2021 12:46:01 GMT
+Content-Type: text/javascript; charset=utf-8
+Connection: close
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+Surrogate-Control: no-store
+Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
+Pragma: no-cache
+Expires: 0
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Set-Cookie: _bc_uuid=c3658ed3-1ca1-409e-bd01-809c92cac608; Path=/; Expires=Wed, 18 May 2043 03:11:20 GMT; HttpOnly; Secure; SameSite=None
+ETag: W/"16b-CFar35kSJDYBdm+nS/9IfljzqrM"
+Content-Length: 363

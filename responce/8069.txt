@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 03 Feb 2021 12:44:13 GMT
+Content-Type: application/json; charset=UTF-8
+Connection: close
+X-Alg-PT: 1
+Access-Control-Allow-Origin: *
+Timing-Allow-Origin: *
+Accept-Encoding: deflate, gzip
+Cache-Control: no-store
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Disposition: inline; filename=test.txt
+Content-Length: 11218
+
