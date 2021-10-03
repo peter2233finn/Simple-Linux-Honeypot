@@ -16,8 +16,12 @@ This is free and open software. do what you wish with it, however it is only des
 The following pachages should be installed:
 <br>
 nc - netcat
+<br>
 netstat - net-tools
+<br>
 nmap - including the scripts: vulscan.nse and nmap-vulners
+<br>
+and also: 
 cat
 strings
 tail
