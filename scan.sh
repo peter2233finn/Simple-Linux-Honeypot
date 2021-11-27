@@ -48,7 +48,9 @@ while true; do
         chmod +x ${confFile}
         . ${confFile}
 
-        strings ${log}/*|grep "Connection from" |awk '{print $3}'|tr ":" " "|awk '{print $1}'|sort|uniq -c|awk "{if(\$1>=$scanThreshhold)print \$2}" > /tmp/active
+        for i in ${log}/*; do strings $i |grep "Connection from" |awk '{print $3}'|tr ":" " "|awk '{print $1}'; done > /tmp/tmpIpList
+        cat /tmp/tmpIpList|sort|uniq -c|awk "{if(\$1>=$scanThreshhold)print \$2}" > /tmp/active
+
         ls $scan | tr  "-" " " |awk '{print $1}'|sort|uniq > /tmp/scaned
         comm -13 /tmp/scaned /tmp/active > /tmp/toscan
 
