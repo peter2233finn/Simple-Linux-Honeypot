@@ -7,6 +7,23 @@ echo "Using configuration file: $confFile"
 chmod +x ${confFile}
 . ${confFile}
 
+# check for missing dependancies
+dependancycheck () {
+	exit=0
+	for i in $@; do
+		if [ -z $(which $i) ]; then
+			echo "The command $i was not found."
+			exit=1
+		fi
+	done
+	if [ $exit -eq 1 ]; then
+		echo "Cannot proceed with missing dependancies"
+		exit 2
+	fi
+}
+
+dependancycheck nc netstat cat strings tail comm grep
+
 # Listen function. This will neep it going indefenitely
 function listen(){
         while true; do
